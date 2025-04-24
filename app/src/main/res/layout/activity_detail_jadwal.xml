@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvMatkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matkul"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvJam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jam" />
+
+    <TextView
+        android:id="@+id/tvDosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosen" />
+
+    <TextView
+        android:id="@+id/tvLokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi" />
+
+    <Button
+        android:id="@+id/btnTambahTugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Tugas"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

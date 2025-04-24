@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MatkulJ</string>
+    <string name="hint_matkul">Nama Mata Kuliah</string>
+    <string name="hint_hari">Hari</string>
+    <string name="hint_jam">Jam (Contoh: 08:00)</string>
+    <string name="btn_simpan">Simpan Jadwal</string>
+</resources>
