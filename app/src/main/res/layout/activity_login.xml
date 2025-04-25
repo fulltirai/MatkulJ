@@ -53,16 +53,17 @@
         android:textSize="14sp"
         android:fontFamily="sans-serif"/>
 
-    <TextView
-        android:id="@+id/signup_text"
+    <Button
+        android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign up"
-        android:textColor="#7DA8F0"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="16sp"
         android:fontFamily="sans-serif"
-        android:layout_marginTop="4dp" />
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#14273F"/>
 
 
 </LinearLayout>
