@@ -14,7 +14,7 @@
         android:layout_marginBottom="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
+        android:fontFamily="@font/poppinsbold"
         android:textStyle="bold"/>
 
     <EditText
@@ -24,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -33,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <Button
         android:id="@+id/loginButton"
@@ -42,7 +44,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#14273F"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
     
     <TextView
         android:layout_width="wrap_content"
@@ -51,18 +54,19 @@
         android:text="Don't have an account?"
         android:textColor="#B0C4DE"
         android:textSize="14sp"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="@font/poppinsmedium"/>
 
-    <TextView
-        android:id="@+id/signup_text"
+    <Button
+        android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign up"
-        android:textColor="#7DA8F0"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:fontFamily="sans-serif"
-        android:layout_marginTop="4dp" />
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#14273F"/>
 
 
 </LinearLayout>

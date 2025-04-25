@@ -15,21 +15,24 @@
             android:hint="Nama Tugas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/poppinsbold"/>
 
         <EditText
             android:id="@+id/etDeskripsi"
             android:hint="Deskripsi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/poppinsmedium"/>
 
         <EditText
             android:id="@+id/etDeadline"
             android:hint="Deadline (cth: 2025-04-30)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"/>
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/poppinsmedium"/>
 
         <Button
             android:id="@+id/btnSimpan"
@@ -37,6 +40,7 @@
             android:layout_height="wrap_content"
             android:text="Simpan Tugas"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#14273F"/>
+            android:backgroundTint="#14273F"
+            android:fontFamily="@font/poppinsmedium"/>
     </LinearLayout>
 </ScrollView>

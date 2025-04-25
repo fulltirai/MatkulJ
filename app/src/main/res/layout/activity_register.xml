@@ -14,8 +14,8 @@
         android:layout_marginBottom="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/poppinsbold"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/emailEditText"
@@ -24,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -33,16 +34,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <Button
-        android:id="@+id/loginButton"
-        android:text="Login"
+        android:id="@+id/registerbutton"
+        android:text="Register"
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#14273F"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
 
 </LinearLayout>

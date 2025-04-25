@@ -32,6 +32,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

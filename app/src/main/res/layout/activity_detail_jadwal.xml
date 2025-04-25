@@ -11,39 +11,45 @@
         android:layout_height="wrap_content"
         android:text="Matkul"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsbold"/>
 
     <TextView
         android:id="@+id/tvHari"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hari"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <TextView
         android:id="@+id/tvJam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jam" />
+        android:text="Jam"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <TextView
         android:id="@+id/tvDosen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dosen" />
+        android:text="Dosen"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <TextView
         android:id="@+id/tvLokasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lokasi" />
+        android:text="Lokasi"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <Button
         android:id="@+id/btnTambahTugas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tambah Tugas"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsmedium"/>
 
 
 </LinearLayout>

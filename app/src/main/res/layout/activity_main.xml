@@ -13,7 +13,8 @@
         android:minHeight="48dp"
         android:inputType="textCapWords"
         android:autofillHints="name"
-        android:textColorHint="#666" />
+        android:textColorHint="#666"
+        android:fontFamily="@font/poppinsbold"/>
 
     <EditText
         android:id="@+id/editHari"
@@ -23,7 +24,8 @@
         android:minHeight="48dp"
         android:inputType="text"
         android:autofillHints="name"
-        android:textColorHint="#666" />
+        android:textColorHint="#666"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <EditText
         android:id="@+id/editJam"
@@ -33,13 +35,15 @@
         android:minHeight="48dp"
         android:inputType="time"
         android:autofillHints="time"
-        android:textColorHint="#666" />
+        android:textColorHint="#666"
+        android:fontFamily="@font/poppinsmedium"/>
 
     <Button
         android:id="@+id/btnSimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
-        android:text="Simpan Jadwal" />
+        android:text="Simpan Jadwal"
+        android:fontFamily="@font/poppinsmedium"/>
 
 </LinearLayout>

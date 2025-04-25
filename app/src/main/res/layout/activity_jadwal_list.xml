@@ -25,5 +25,6 @@
         android:elevation="8dp"
         android:padding="12dp"
         android:backgroundTint="#667686"
-        card_view:tint="#FFFFFF" />
+        card_view:tint="#FFFFFF"/>
+
 </RelativeLayout>
