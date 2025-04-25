@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradiant">
 
     <LinearLayout
         android:orientation="vertical"
@@ -13,25 +14,29 @@
             android:id="@+id/etNamaTugas"
             android:hint="Nama Tugas"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"/>
 
         <EditText
             android:id="@+id/etDeskripsi"
             android:hint="Deskripsi"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"/>
 
         <EditText
             android:id="@+id/etDeadline"
             android:hint="Deadline (cth: 2025-04-30)"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"/>
 
         <Button
             android:id="@+id/btnSimpan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Simpan Tugas"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#14273F"/>
     </LinearLayout>
 </ScrollView>

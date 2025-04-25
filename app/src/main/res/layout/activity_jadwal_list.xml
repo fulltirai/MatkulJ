@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#F5F5F5">
+    android:background="@drawable/bg_gradiant">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -24,6 +24,6 @@
         android:contentDescription="Tambah Jadwal"
         android:elevation="8dp"
         android:padding="12dp"
-        android:tint="#FFFFFF"
-        android:backgroundTint="#2196F3" />
+        android:backgroundTint="#667686"
+        card_view:tint="#FFFFFF" />
 </RelativeLayout>
